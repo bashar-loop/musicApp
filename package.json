@@ -1,0 +1,28 @@
+{
+  "name": "musicapp",
+  "version": "0.0.2",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MusicStrike/musicApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MusicStrike/musicApp/issues"
+  },
+  "homepage": "https://github.com/MusicStrike/musicApp#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "pg": "^7.17.1",
+    "request": "^2.88.0",
+    "unirest": "^0.6.0"
+  }
+}
